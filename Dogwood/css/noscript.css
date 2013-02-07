@@ -1,0 +1,10 @@
+#slider,
+#kwicks1 {
+	height: 344px;
+	background-image: url(../images/slideimage9.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#kwicks1 li {
+  display: none; 
+}

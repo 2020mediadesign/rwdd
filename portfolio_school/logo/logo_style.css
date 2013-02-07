@@ -1,0 +1,190 @@
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+c/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;0;0;4px
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	background-color: transparent;
+	background-image: url(style/contact_style.css);
+	background-repeat: repeat-x;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+body {margin: 0;  text-align: center}
+body, table {font-family: helvetica, arial, sans-serif; font-size: 18px; color: #000}
+
+a {text-decoration: none}
+
+#container {width: 985px; margin: auto; text-align: left}
+#navigation {float: right; width: 182px}
+td.homeNav {vertical-align: top; padding: 12px}
+td.homeNav ul {line-height: 1.2em}
+#navigation ul {margin: 0 0 12px -17px; list-style-type: none; line-height: 1.2em}
+#navigation ul li, td.homeNav ul li {margin: 0; padding: 0}
+#navigation ul li a.active {
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold
+}
+#navigation ul li a, td.homeNav ul li a {text-decoration: none; color: #bcbcbc}
+#navigation ul li a:hover, td.homeNav ul li a:hover {
+	text-decoration: none;
+	color: #FF9900
+}
+#mainArea {margin: -1 0 0 182px}
+h1, h2, h3, h4 {margin: 0; padding: 0}
+h1 {background: #000 url(/images/rmlogo.gif) no-repeat 205px 0px; height: 48px; border-bottom: 1px solid #fff; margin: 0 0 55px 0}
+h1 span {display: none}
+h1.categoryPage {background: url(/images/rmlogo.gif) no-repeat 0 0px}
+h2 {padding: 0; font-size: 13px; letter-spacing: -.02em}
+h3 {padding: 3px 0 0 0; font-size: 11px}
+img {border: none} 
+img.mainImage {background: #fff} 
+#info {margin: 2px 0 0; padding: 18px 0 0; width: 615px}
+.description {padding: 7px 0 14px 0; margin: 0 0 50px 0; font-size: 11px; font-family: helvetic, arial, sans-serif; line-height: 1.3em}
+.description p {margin: 0; padding: 0}
+.award {float: right}
+#scroll {float: right; padding: 10px 15px 0; margin: 15px 15px 0; text-align: center}
+.count {font-size: 34px; color: #d5d5d5; font-weight: normal; padding: 0 0 12px 0}
+#leftArea {
+	width: 480px;
+	padding: 0 15px 0 0;
+	border-right-style: none;
+}
+.clear {clear: both; height: 0px; overflow: hidden}
+
+#categoryNavigation {width: 160px; float: right; font-size: 12px}
+#categoryNavigation h2 {color: #777; margin: 0 0 8px 0}
+#categoryNavigation ul {list-style-type: none; margin: 0 0 12px 0; padding: 0}
+#categoryNavigation ul li {margin: 0; padding: 0 0 8px 0}
+#categoryNavigation ul li a {color: #999}
+#categoryNavigation ul li a:hover {text-decoration: underline; color: #555}
+#categoryNavigation ul li a.active {color: #000; font-weight: bold; font-size: 140%}
+
+#portfolioArea {width: 788px; border-left: 1px solid #fff; font-size: 11px; margin: 0 0 50px 0}
+.padding {padding: 12px}
+#portfolioArea ul {margin: 0; padding: 0; list-style-type: none}
+#portfolioArea ul li {height: 440px; border-right: 1px solid #e7e7e7; float: left; padding: 0 10px 6px 6px; margin: 0;}
+
+#portfolioArea ul li a {display: block;}
+#portfolioArea img {margin: 0 0; padding: 0}
+#portfolioArea ul li h3 {margin: 24px 0 0px 0; padding: 0 0; color: #000; font-size: 11px}
+#portfolioArea ul li h4 {margin: 14px 0 8px 0; padding: 0 0 0; color: #555}
+#portfolioArea ul li p {margin: 0 0; padding: 0 0 0 4px; color: #666; line-height: 15px; width: 160px}
+#portfolioArea ul li a.link {margin: 0 0; padding: 24px 0 0 0; color: #000; font-size: 11px; text-transform: capitalize}
+
+#portfolioArea h3 a {color: #00AEEF}
+#portfolioArea h4 a {color: #555}
+
+a.viewAll {
+	color: #00AEEF; 
+	font-size: 11px; 
+	display: inline; 
+	margin: 15px 0 0 0;
+	background: url() no-repeat top right;
+	width: 80px;
+	height:15px;
+	line-height:45px;
+	padding:9px 21px 0 11px;
+	}
+a.viewAll img {margin: 0 6px 0 6px; float: right}
+
+table.homeTable {width: 980px;}
+
+td.home1 {width: 375px; border-right: 1px solid #ccc; text-align: left; vertical-align: top}
+td.home1 p {font-size: 18px; font-family: georgia, times, "times new roman", serif; line-height: 1.5em; padding: 12px; margin: 0}
+td.home1 img {text-align: center; padding: 24px 0}
+
+td.home2 {width: 375px; border-right: 1px solid #ccc; padding: 0; text-align: left; vertical-align: top}
+td.home2 h2 {background: #f1f1f1; margin: 1px 0 0 0; padding: 6px 12px; text-align: left; font-weight: bold; font-size: 11px; border-bottom: 1px solid #ccc}
+td.home2 h3 {margin: 8px 0 0 0; padding: 6px 0 0 0}
+td.home2 h3 a:link, td.home2 h3 a:visited, td.home2 h3 a:hover, td.home2 h3 a:active {color: #000; font-size: 11px}
+td.home2 h3 a:hover {text-decoration: underline}
+td.home2 h4 {margin: 0; padding: 12px 0; font-weight: normal; font-size: 11px; color: #888; line-height: 1.4em}
+td.home2 h5 {margin: 0 0 24px 0; padding: 0; font-weight: normal}
+td.home2 h5 a:link, td.home2 h5 a:visited, td.home2 h5 a:hover, td.home2 h5 a:active {color: #444; font-size: 11px}
+td.home2 h5 a:hover {text-decoration: underline}
+img.thumbnail {width: 170px; height: 112px; background-repeat: none}
+
+table.featuredTable td {padding: 8px}
+table.featuredTable td.col1 {border-right: 1px solid #ccc}
+
+table.contactTable td.contact1 {border-right: 1px solid #ccc; vertical-align: bottom; padding: 70px 0 0 0}
+table.contactTable td.contact1a {border-right: 1px solid #ccc; padding: 0}
+table.contactTable td.contact2 {width: 555px; background: url(/images/contact-bg.gif); vertical-align: middle; font-size: 18px}
+table.contactTable td.contact2 a {color: #000}
+table.contactTable td.contact2 p {margin: 0 12px 18px}
+table.contactTable td.contact2 p span {background: #fff; padding: 0 6px}
+
+.contactMessage {font-size: 28px; margin: 0 24px 12px 0}
+
+html { min-height: 100%; margin-bottom: 1px; }
+
+@charset "UTF-8";
+
+.topLogo {
+	text-align: left;
+	width: 985px;
+	margin: auto;
+	padding: 0 0 47px 50px;
+}
+
+#player {margin: 24px 0 0 75px; width: 600px;}

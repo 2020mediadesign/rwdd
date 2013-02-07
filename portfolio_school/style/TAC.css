@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	height: 60px;
+	background-color: #E88745;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 15 15;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 40px;
+	margin-left: 0;
+	border-bottom-style: none;
+	overflow: visible;
+}
+li {
+float: left;
+}
+#navigation {
+	float: right;
+	width: 300px;
+	margin-top: 0px;
+	margin-right: 450px;
+	font-size: 18px;
+	color: #999;
+}
+td.homeNav {vertical-align: top; padding: 12px}
+td.homeNav ul {line-height: 1.2em}
+#navigation ul {margin: 0 0 12px -17px; list-style-type: none; line-height: 1.2em}
+#navigation ul li, td.homeNav ul li {
+	padding: 5px
+}
+#navigation ul li a.active {
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold
+}
+#navigation ul li a, td.homeNav ul li a {text-decoration: none; color: #bcbcbc}
+#navigation ul li a:hover, td.homeNav ul li a:hover {
+	text-decoration: none;
+	color: #FF9900
+}

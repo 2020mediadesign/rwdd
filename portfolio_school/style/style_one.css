@@ -1,0 +1,225 @@
+/*Thomas Ryan
+Portfolio
+Web210 2012*/
+
+body {
+	margin: 0;
+	padding: 12px 12px 100px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+
+
+
+	color: #888
+	background-image: url(images/paging.jpg);
+	background-repeat: repeat;
+	background-color: #FFF;
+	background-image: url(../images/image-bg.png);
+}
+
+img.logo {
+	float: left; 
+	display: block; 
+	margin: 18px 0
+}
+
+.clear {
+	clear: both
+}
+
+div.baThumbnail {
+	float: left;
+	margin: 8px 8px 0 0;
+	font-size: 14px;
+}
+
+div.baThumbnail img {
+	display: block; 
+	margin: 0 0 6px 0; 
+	width: 295px; 
+	height: 200px;
+}
+
+a.title:link, a.title:visited, a.title:hover, a.title:active {
+	display: block; 
+	text-decoration: none; 
+	color: #888
+}
+
+a.category:link, a.category:visited, a.category:hover, a.category:active {
+	display: block; 
+	margin: 0 0 6px 0; 
+	text-decoration: 
+	none; color: #888
+}
+
+span.tel {
+	display: block;
+	margin-top: 5px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+
+a.email {
+	text-decoration: none; 
+	color: #888
+}
+
+#top {
+	float: left;
+	margin-top: 75px;
+	margin-right: 0;
+	margin-bottom: 24px;
+	margin-left: 100px;
+	padding-left: 36px;
+	font-size: 16px;
+}
+
+h1 {
+	width: 312px;
+	height: 140px;
+	float: left;
+	margin: 0 0 24px 0;
+	padding: 0;
+	text-indent: -50000px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+ul#navHome {
+	padding: 0;
+	list-style-type: none;
+	color: #555;
+	line-height: 1.3em;
+	font-weight: bold;
+	width: 304px;
+	margin-top: 18px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+ul#navHome a:link, ul#navHome a:visited, ul#navHome a:hover, ul#navHome a:active {
+	color: #888; 
+	text-decoration: none; 
+	font-weight: normal
+}
+
+ul#navHome a:hover {
+	color: #555; 
+	font-weight: bold
+}
+
+ul#navHome li {
+	width: 152px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+img {
+	border: none
+}
+
+/*footer */ 
+.col-1-3{
+	width:380px; 
+	display:block; 
+	float:left; 
+	margin:20px 17px 10px 17px;
+}
+.wrap_footer{
+	width: 100%;
+	padding: 0px;
+	border: thick dashed #3F0;
+	margin: 0px;
+}
+footer {
+	clear: both;
+	overflow: hidden;
+	font-size: 14px;
+	width: 100%;
+	border: thin solid #F90;
+	height: 80px;
+	text-align: center;
+}
+footer .title{ 
+    color:#38B0E3; 
+	padding-bottom:5px;
+	font-size:20px; 
+	font-weight:normal; 
+	text-transform:uppercase;
+}
+
+footer ul {
+	margin:0; 
+	padding:0;
+	list-style-image:none;
+}
+footer ul li {
+	border-bottom: 1px solid #ffffff;
+}
+footer ul li a { 
+    font-size:14px; 
+	color:#ffffff; 
+	line-height:25px;
+}
+
+footer ul li a:hover {
+	color:#38B0E3; 
+	text-decoration:none; 
+	cursor:pointer;
+}
+
+footer p {
+	color: #000000;
+}
+footer .copyright{
+	display: inline-block;
+	width: 95%;
+	text-align: center;
+	margin-top: 80px;
+	border: 1px solid #000;
+	color: #000;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	height: 80px;
+}
+li {
+float: left;
+}
+#navigation {
+	float: right;
+	width: 400px;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+td.homeNav {vertical-align: top; padding: 12px}
+td.homeNav ul {line-height: 1.2em}
+#navigation ul {margin: 0 0 12px -17px; list-style-type: none; line-height: 1.2em}
+#navigation ul li, td.homeNav ul li {
+	padding: 5px
+}
+#navigation ul li a.active {
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold
+}
+#navigation ul li a, td.homeNav ul li a {text-decoration: none; color: #bcbcbc}
+#navigation ul li a:hover, td.homeNav ul li a:hover {
+	text-decoration: none;
+	color: #FF9900
+}
+.pstatement{
+	text-decoration: underline;
+	text-align: center;
+	color: #FF6600;
+	font-size: 14px;
+		
+}

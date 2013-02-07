@@ -1,0 +1,20 @@
+
+@media only print
+{
+
+	
+	.clear, div.baThumbnail, div.baThumbnail img,a.title:link, a.title:visited, a.title:hover, a.title:active,a.category:link, a.category:visited, a.category:hover, a.category:active, span.tel, a.email, #top, ul#navHome, ul#navHome a:link, ul#navHome a:visited, ul#navHome a:hover, ul#navHome a:active, ul#navHome a:hover, ul#navHome li,.col-1-3, .wrap_footer, footer, #navigation, body *   {     display: none !important; 
+	}
+	
+
+
+body:before {
+	padding-right: 5px;
+	content: url(../images/logo.png);
+}
+body:after {
+	font-style: 15px;
+	content: "Printing of this page is not allowed. The about me page contains a printable CV ";
+}
+
+}
